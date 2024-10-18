@@ -38,6 +38,7 @@ public class RabbitMQConfig {
 
 
     //Bean for rabbitMQ Queue - Json
+    @Bean
     public Queue jsonQueue(){
 
         return new Queue( jsonQueueName );
