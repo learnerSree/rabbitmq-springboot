@@ -65,7 +65,7 @@ public class RabbitMQConfig {
 
 
     //Bean for rabbitMQ Binding - JSON messages
-    @Bean Binding bindingForJson(){
+   @Bean Binding bindingForJson(){
 
         return  BindingBuilder
                 .bind( jsonQueue() )
